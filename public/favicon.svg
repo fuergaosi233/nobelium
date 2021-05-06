@@ -1,19 +1,9 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-.background { fill: black}
-.letter { fill: white}
-@media (prefers-color-scheme: dark) {
-.background { fill: white}
-.letter { fill: black}
-}
-</style>
-<g clip-path="url(#clip0)">
-<rect width="200" height="200" class="background"/>
-<path d="M200.563 83.7392H169V144.594H168.092L126.765 83.7392H99.9706V200H131.534V138.918H132.215L174.223 200H200.563V83.7392Z" class="letter"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="200" height="200" />
-</clipPath>
-</defs>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(255, 95, 109);"></stop>
+      <stop offset="100%" style="stop-color: rgb(255, 195, 113);"></stop>
+    </linearGradient>
+  </defs>
+  <path id="blob" d="M409,317.5Q328,385,250.5,384.5Q173,384,131,317Q89,250,107,142Q125,34,235.5,59Q346,84,418,167Q490,250,409,317.5Z" fill="url(#gradient)"></path>
 </svg>
